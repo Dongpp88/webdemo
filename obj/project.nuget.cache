@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jc0l3pa4R4VLgNBmolOgMT0GsClZjED9nP0vhhS6l9OG/waGyEcV2DPm5JSYKzjWCxiq2EtlC8TKjJ6+DBmmUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dong Ping Ping\\source\\repos\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dong Ping Ping\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+  ],
+  "logs": []
+}
