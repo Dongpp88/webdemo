@@ -1,7 +1,13 @@
-node {
-    checkout scm
 
-    def customImage = docker.build("webdemo")
-
-    
+pipeline {
+  agent none
+  stages {
+    stage('Deploy') {
+      agent any
+      steps {
+        echo 'Deploying'
+        sh './deploy_jenkins.sh'
+      }
+    }
+  }
 }
