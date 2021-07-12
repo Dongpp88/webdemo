@@ -6,6 +6,7 @@ pipeline {
       agent any
       steps {
         echo 'Deploying'
+        sh "chmod +x -R ${env.WORKSPACE}"
         sh './deploy_jenkins.sh'
       }
     }
