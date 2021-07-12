@@ -3,7 +3,5 @@ node {
 
     def customImage = docker.build("webdemo")
 
-    customImage.inside {
-        sh 'make test'
-    }
+    
 }
