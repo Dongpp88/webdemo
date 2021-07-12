@@ -25,4 +25,4 @@ docker build -t $IMAGE . && \
 # 使用 docker stack 启动服务
 #docker stack deploy -c docker-compose.jenkins.yml $CONTAINER
 
-docker run --name $IMAGE -p 80:80 $IMAGE
+docker run --name webdemo -p 80:80 $IMAGE
