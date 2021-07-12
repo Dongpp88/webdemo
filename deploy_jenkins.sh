@@ -6,7 +6,8 @@ CONTAINER="jenkins_demo"
 IMAGE=$CONTAINER":"$(date -d "today" +"%Y%m%d_%H%M%S")
 
 # 删除滚动更新残留的容器
-docker rm webdemo
+docker stop webdemo
+docker rmi webdemo
 # 强制删除滚动更新残留的镜像
 docker rmi --force `docker images | grep -w $CONTAINER | awk '{print $3}'`
 
